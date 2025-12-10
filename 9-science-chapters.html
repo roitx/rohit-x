@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 9 Science Chapters</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .chapter-card {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .chapter-card:hover {
+            background: #eaffea;
+            transform: translateY(-2px);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Class 9 — Science (Chapters)</h1>
+
+    <!-- ================= PHYSICS ================= -->
+    <h2>🔵 Physics</h2>
+
+    <div class="chapter-card" onclick="openNotes('9-physics-ch7.pdf')">
+        Chapter 7 – Motion
+    </div>
+
+    <div class="chapter-card" onclick="openNotes('9-physics-ch8.pdf')">
+        Chapter 8 – Force and Laws of Motion
+    </div>
+
+    <div class="chapter-card" onclick="openNotes('9-physics-ch9.pdf')">
+        Chapter 9 – Gravitation
+    </div>
+
+    <div class="chapter-card" onclick="openNotes('9-physics-ch10.pdf')">
+        Chapter 10 – Work and Energy
+    </div>
+
+    <div class="chapter-card" onclick="openNotes('9-physics-ch11.pdf')">
+        Chapter 11 – Sound
+    </div>
+
+
+    <!-- ================= CHEMISTRY ================= -->
+    <h2>🟠 Chemistry</h2>
+
+    <div class="chapter-card" onclick="openNotes('9-chemistry-ch1.pdf')">
+        Chapter 1 – Matter in Our Surroundings
+    </div>
+
+    <div class="chapter-card" onclick="openNotes('9-chemistry-ch2.pdf')">
+        Chapter 2 – Is Matter Around Us Pure?
+    </div>
+
+    <div class="chapter-card" onclick="openNotes('9-chemistry-ch3.pdf')">
+        Chapter 3 – Atoms and Molecules
+    </div>
+
+    <div class="chapter-card" onclick="openNotes('9-chemistry-ch4.pdf')">
+        Chapter 4 – Structure of the Atom
+    </div>
+
+
+    <!-- ================= BIOLOGY ================= -->
+    <h2>🟢 Biology</h2>
+
+    <div class="chapter-card" onclick="openNotes('9-biology-ch5.pdf')">
+        Chapter 5 – The Fundamental Unit of Life
+    </div>
+
+    <div class="chapter-card" onclick="openNotes('9-biology-ch6.pdf')">
+        Chapter 6 – Tissues
+    </div>
+
+    <div class="chapter-card" onclick="openNotes('9-biology-ch12.pdf')">
+        Chapter 12 – Improvement in Food Resources
+    </div>
+
+
+    <script>
+        function openNotes(file) {
+            window.location.href = "notes-viewer.html?file=" + file;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12 Physics Chapters</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 { text-align: center; font-size: 30px; margin-bottom: 10px; }
+        h2 { margin-top: 30px; font-size: 22px; color: #222; }
+        .chapter-card {
+            background: white;
+            padding: 14px 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-size: 17px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            cursor: pointer;
+            font-weight: 600;
+            transition: .3s;
+        }
+        .chapter-card:hover {
+            background: #e8f4ff;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Class 12 – भौतिकी (Physics)</h1>
+
+
+<h2>📘 भाग 1</h2>
+
+<div class="chapter-card" onclick="openNotes('12-phy-ch1.pdf')">अध्याय 1 – वैद्युत आवेश एवं क्षेत्र</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch2.pdf')">अध्याय 2 – वैद्युत विभव एवं धारिता</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch3.pdf')">अध्याय 3 – धारा विद्युत</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch4.pdf')">अध्याय 4 – गतिज चुम्बकत्व</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch5.pdf')">अध्याय 5 – चुंबकीय प्रभाव</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch6.pdf')">अध्याय 6 – विद्युतचुंबकीय प्रेरण</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch7.pdf')">अध्याय 7 – प्रत्यावर्ती धारा</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch8.pdf')">अध्याय 8 – विद्युतचुंबकीय तरंगें</div>
+
+
+<h2>📗 भाग 2</h2>
+
+<div class="chapter-card" onclick="openNotes('12-phy-ch9.pdf')">अध्याय 9 – किरण आप्टिक्स और तरंग आप्टिक्स</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch10.pdf')">अध्याय 10 – तरंगिकी</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch11.pdf')">अध्याय 11 – विकिरण एवं पदार्थ की द्वैत प्रवृत्ति</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch12.pdf')">अध्याय 12 – परमाणु</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch13.pdf')">अध्याय 13 – नाभिक</div>
+<div class="chapter-card" onclick="openNotes('12-phy-ch14.pdf')">अध्याय 14 – अर्धचालक इलेक्ट्रॉनिक्स</div>
+
+
+<script>
+function openNotes(file) {
+    window.location.href = "notes-viewer.html?file=" + file;
+}
+</script>
+
+</body>
+</html>

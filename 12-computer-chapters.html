@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class 12 Computer Chapters</title>
+
+<style>
+    body{font-family:Arial;background:#f5f5f5;padding:20px;margin:0;}
+    h1{text-align:center;font-size:30px;margin-bottom:10px;}
+    h2{margin-top:30px;font-size:22px;color:#222;}
+    .chapter-card{
+        background:white;padding:14px 15px;margin:10px 0;border-radius:8px;
+        font-size:17px;box-shadow:0 3px 6px rgba(0,0,0,0.1);cursor:pointer;
+        font-weight:600;transition:.3s;
+    }
+    .chapter-card:hover{background:#e8f4ff;transform:translateY(-2px);}
+</style>
+
+</head>
+<body>
+
+<h1>Class 12 – Computer Science</h1>
+
+<h2>📘 Python Programming</h2>
+
+<div class="chapter-card" onclick="openNotes('12-cs-ch1.pdf')">Chapter 1 – Python Revision</div>
+<div class="chapter-card" onclick="openNotes('12-cs-ch2.pdf')">Chapter 2 – Functions & Recursion</div>
+<div class="chapter-card" onclick="openNotes('12-cs-ch3.pdf')">Chapter 3 – File Handling</div>
+<div class="chapter-card" onclick="openNotes('12-cs-ch4.pdf')">Chapter 4 – Data Structure (Stacks, Queues)</div>
+
+<h2>📙 Database (SQL)</h2>
+
+<div class="chapter-card" onclick="openNotes('12-cs-ch5.pdf')">Chapter 5 – Relational Databases</div>
+<div class="chapter-card" onclick="openNotes('12-cs-ch6.pdf')">Chapter 6 – SQL Queries</div>
+
+<h2>📗 Networking</h2>
+
+<div class="chapter-card" onclick="openNotes('12-cs-ch7.pdf')">Chapter 7 – Computer Networks</div>
+<div class="chapter-card" onclick="openNotes('12-cs-ch8.pdf')">Chapter 8 – Network Security</div>
+
+<script>
+function openNotes(file){window.location.href = "notes-viewer.html?file=" + file;}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Viewer</title>
+<link rel="stylesheet" href="site.css">
+</head><body>
+<div class="container">
+  <div class="viewer-top">
+    <div><button class="btn" onclick="history.back()">← Back</button></div>
+    <div id="vTitle">Loading…</div>
+    <div>
+      <button class="btn" id="zoomOut">−</button>
+      <button class="btn" id="zoomIn">＋</button>
+      <a id="download" class="btn" download>⬇ Download</a>
+      <button class="btn" id="fullscreen">⛶</button>
+    </div>
+  </div>
+
+  <iframe id="pdfFrame" class="pdf-frame" src=""></iframe>
+</div>
+
+<script src="viewer.js"></script>
+</body></html>

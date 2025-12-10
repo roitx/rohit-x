@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class 12 Chemistry Chapters</title>
+
+<style>
+body { font-family: Arial; background:#f5f5f5; padding:20px; margin:0; }
+h1 { text-align:center; font-size:30px; margin-bottom:10px; }
+h2 { margin-top:30px; font-size:22px; color:#222; }
+.chapter-card {
+    background:white; padding:14px 15px; margin:10px 0; border-radius:8px;
+    font-size:17px; box-shadow:0 3px 6px rgba(0,0,0,0.1); cursor:pointer;
+    font-weight:600; transition:.3s;
+}
+.chapter-card:hover { background:#e8f4ff; transform:translateY(-2px); }
+</style>
+</head>
+
+<body>
+
+<h1>Class 12 – रसायन विज्ञान (Chemistry)</h1>
+
+
+<h2>📘 भाग 1</h2>
+
+<div class="chapter-card" onclick="openNotes('12-chem-ch1.pdf')">अध्याय 1 – ठोस अवस्था</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch2.pdf')">अध्याय 2 – विलयन</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch3.pdf')">अध्याय 3 – वैद्युत रसायन</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch4.pdf')">अध्याय 4 – रासायनिक गतिकी</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch5.pdf')">अध्याय 5 – पृष्ठ रसायन</div>
+
+
+<h2>📗 भाग 2</h2>
+
+<div class="chapter-card" onclick="openNotes('12-chem-ch6.pdf')">अध्याय 6 – धातु विज्ञान</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch7.pdf')">अध्याय 7 – p-ब्लॉक तत्त्व</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch8.pdf')">अध्याय 8 – d और f ब्लॉक तत्त्व</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch9.pdf')">अध्याय 9 – समन्वय यौगिक</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch10.pdf')">अध्याय 10 – हेलोएल्केन एवं हेलोएरीन</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch11.pdf')">अध्याय 11 – ऐल्कोहॉल, फिनॉल व ईथर</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch12.pdf')">अध्याय 12 – ऐल्डिहाइड, कीटोन व कार्बोक्सिलिक अम्ल</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch13.pdf')">अध्याय 13 – ऐमीन</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch14.pdf')">अध्याय 14 – जैव अणु</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch15.pdf')">अध्याय 15 – बहुलक</div>
+<div class="chapter-card" onclick="openNotes('12-chem-ch16.pdf')">अध्याय 16 – दैनंदिन जीवन में रसायन</div>
+
+
+<script>
+function openNotes(file) {
+    window.location.href = "notes-viewer.html?file=" + file;
+}
+</script>
+
+</body>
+</html>

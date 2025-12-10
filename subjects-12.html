@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12 — Streams</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .stream-btn {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0px 3px 6px rgba(0,0,0,0.15);
+            transition: 0.3s;
+        }
+
+        .stream-btn:hover {
+            transform: translateY(-3px);
+            background: #eaffea;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Class 12 — Select Your Stream</h1>
+
+<div class="stream-btn" onclick="goto('12-science-subjects.html')">🔬 Science</div>
+<div class="stream-btn" onclick="goto('12-arts-subjects.html')">🎭 Arts</div>
+<div class="stream-btn" onclick="goto('12-commerce-subjects.html')">💼 Commerce</div>
+
+<script>
+    function goto(page) {
+        window.location.href = page;
+    }
+</script>
+<div class="home-btn" onclick="location.href='index.html'">🏠</div>
+</body>
+</html>
